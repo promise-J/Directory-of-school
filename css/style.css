@@ -4,12 +4,12 @@
 
 li {
   list-style: none;
-  padding: 0px;
+  padding: 0;
 }
 
 input {
-    background-color: black !important;
-  }
+  background-color: black !important;
+}
 
 body {
   font-family: Helvetica, Arial, sans-serif;
@@ -35,7 +35,12 @@ header a {
 
 /* main section */
 .main-intro {
-  background-image: linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0.7)),url("../images/sysproject.jpg");
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../images/sysproject.jpg");
   height: 500px;
   background-position: center;
   background-size: cover;
@@ -43,40 +48,40 @@ header a {
 }
 
 .main-content {
-    background-color: rgba(225,225,225,0.6);
+  background-color: rgba(225, 225, 225, 0.6);
 }
 
 .main-content input {
-    background-color: white !important;
-    outline: none;
-    height: 3rem;
+  background-color: white !important;
+  outline: none;
+  height: 3rem;
 }
 
 .demo-icon {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .app-img {
-    background-image: url("../images/sysproject.jpg");
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+  background-image: url("../images/sysproject.jpg");
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }
 
 .main-content button {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .main-content h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .how-it-works {
-    background-color: rgba(225,225,225,0.6);
+  background-color: rgba(225, 225, 225, 0.6);
 }
 
 .title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* footer here */
@@ -87,11 +92,11 @@ footer a {
 }
 
 footer .footer1 {
-    position: relative;
+  position: relative;
 }
 
 footer .map {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 footer .maps {
@@ -104,5 +109,5 @@ footer .maps {
 }
 
 .about-in {
-    font-size: small;
+  font-size: small;
 }
