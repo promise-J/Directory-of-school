@@ -1,16 +1,108 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  li {
-    list-style: none;
-    padding: 0px;
-  }
-  
-  body {
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: white;
-    line-height: 1.5;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  padding: 0px;
+}
+
+input {
+    background-color: black !important;
   }
 
-  
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: white;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+
+header a {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.logo-img {
+  font-size: 2.5rem;
+}
+
+/* main section */
+.main-intro {
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0.7)),url("../images/sysproject.jpg");
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-content {
+    background-color: rgba(225,225,225,0.6);
+}
+
+.main-content input {
+    background-color: white !important;
+    outline: none;
+    height: 3rem;
+}
+
+.demo-icon {
+    font-size: 4rem;
+}
+
+.app-img {
+    background-image: url("../images/sysproject.jpg");
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.main-content button {
+    font-weight: bold;
+}
+
+.main-content h2 {
+    font-weight: bold;
+}
+
+.how-it-works {
+    background-color: rgba(225,225,225,0.6);
+}
+
+.title {
+    font-weight: bold;
+}
+
+/* footer here */
+
+footer a {
+  font-size: 0.7rem;
+  color: white;
+}
+
+footer .footer1 {
+    position: relative;
+}
+
+footer .map {
+    font-size: 2.5rem;
+}
+
+footer .maps {
+  top: -8%;
+  left: 50%;
+}
+
+.footer2 h3 {
+  font-size: 19px;
+}
+
+.about-in {
+    font-size: small;
+}
