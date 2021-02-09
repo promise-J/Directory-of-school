@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  li {
+    list-style: none;
+    padding: 0px;
+  }
+  
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: white;
+    line-height: 1.5;
+  }
+
+  
