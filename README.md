@@ -8,8 +8,8 @@ A directory for schools that allows parents and teachers connect. It allows the 
 > Clone of THE NEWSWEEK page using Bootstrap
 
 <img src="images/syn1.PNG" width="700">
-<img src="images/syn2.PNG" width="600">
-<img src="images/syn3.PNG" width="500">
+<img src="images/syn2.PNG" width="500">
+<img src="images/syn3.PNG" width="300">
 
 I applied botstrap all through out the project to achieve the desired lay out for the major 3 screen sizes.
 
