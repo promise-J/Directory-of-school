@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Helvetica">
+    <link rel="stylesheet" href="css/style.css">
+    <title>search page</title>
+</head>
+<body>
+    <header class="container-fluid bg-danger">
+        <div class="row d-flex flex-column">
+          <div class="logo col-12 d-flex justify-content-center align-items-center m-3">
+              <a href="#">
+                  <i class="logo-img fas fa-chalkboard-teacher"><span class="ml-3">SynSchool</span></i>
+              </a>
+          </div>
+          <nav class="col-12 mt-4">
+              <ul class="d-flex justify-content-around align-items-center">
+                  <li>
+                  <a href="#"><i class="far fa-address-card mr-4"></i><span class="d-none ml-3 d-md-inline-block">About</span>
+                  </a></li>
+                  
+                      <li><a href="#"><i class="fas fa-search"></i><span class="d-none ml-3 d-md-inline-block">Search</span></a></li>
+                  
+                      <li> <a href="#">
+                      <i class="fas fa-rss-square"></i><span class="d-none ml-3 d-md-inline-block">Discuss</span></a>
+                    </li>
+                  
+                      <li><a href="#"><i class="fas fa-bars"></i><span class="d-none ml-3 d-md-inline-block">More</span></a></li>
+                  
+              </ul>
+          </nav>
+        </div>
+        </header>
+
+
+
+
+        <div class="container-fluid  px-3 mt-5 mb-5 form-for-large">
+            <h3 class="text-center pt-3 mb-3 text-muted" >Filter by name, region, division, type, accomodation, facilities, services </h3>
+            <div class="row">
+              
+                <div class="col-12 container-fluid form-container">
+                 
+                <form action="/" class ="form-lg-inline flex-lg-row d-flex flex-column align-items-md-center align-items-start justify-content-around flex-nowrap flex-shrink-1  py-5 container-fluid ">
+                    <div class="form-group d-flex flex-shrink-1">
+                        <div class = "d-flex flex-column align-items-start">
+                            <label for="school">SCHOOL NAME:*</label>
+                            <input type="text" class="form-control bg-white border lg" id="school" placeholder="school-here" name="school-name">
+                        </div>
+                    </div>
+
+                    <div class="form-group d-flex px-2 flex-shrink-1">
+                        <div class = "d-flex flex-column align-items-start flex-shrink-1">
+                            <label>DIVISION:</label>
+                            <select class="form-control bg-white border lg" id="division">
+                                <option value="selected">choose</option>
+                                <option>Phase West </option>
+                                <option>Phase South</option>
+                                <option>Phase East</option>
+                                <option> Phase North</option>
+                                <option>Central</option>
+                                <option>Elites</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group d-flex px-2 flex-shrink-1">
+                        <div class = "d-flex flex-column align-items-start">
+                            <label for="sel1">GRADE:</label>
+                            <select class="form-control bg-white border lg w-3" id="sel1">
+                                <option value="selected">choose</option>
+                                <option>Nursery </option>
+                                <option>Basic</option>
+                                <option>Advance</option>
+                                <option>Secondary</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group d-flex px-2 flex-shrink-1">
+                        <div class = "d-flex flex-column align-items-start">
+                            <label for="sel2">FEES:</label>
+                            <select class="form-control bg-white border lg" id="sel2">
+                                <option value="selected">choose</option>
+                                <option>$10</option>
+                                <option>$20 - 100%</option>
+                                <option>100$ above</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group d-flex px-2 flex-shrink-1">
+                        <div class = "d-flex flex-column align-items-start">
+                            <label for="sel3">STRENGTH:</label>
+                            <select class="form-control bg-white border lg" id="sel3">
+                                <option value="selected">choose</option>
+                                <option> Sports</option>
+                                <option>Music</option>
+                                <option>Dancing classes</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group d-flex flex-shrink-1">
+                        <div class = "d-flex flex-column align-items-start">
+                            <label for="sel4">GENDER:</label>
+                            <select class="form-control bg-white border lg" id="sel4">
+                                <option value="selected">choose</option>
+                                <option>MALE</option>
+                                <option>FEMALE</option>
+                                <option>NOT NECESSARY</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn btn-primary mx-4">Search</button>              
+
+                    <button type="submit" class="btn btn-warning text-nowrap text-white mx-4"><i class="far fa-edit"></i>Clear Filter</button>
+                </form>
+             </div>
+            </div>
+        </div>
+
+
+        
+        <div class="search-result container-fluid">
+               <h2 class="col-12 fw-bold text-center text-muted my-5">Search result found. 3 schools found</h2>
+           <div class="row">
+               <article class="col-12 col-md-6 col-lg-4 text-center my-5">
+                   <h2 class="text-primary">SCHOOL: ROSESERGENG HIGH SCHOOL</h2>
+                   <p>Grade: Secondary, Primary, Nursery</p>
+                   <p>FEES: 100$ above</p>
+                   <small class="text-danger">Read more</small>
+               </article>
+               <article class="col-12 col-md-6 col-lg-4 text-center my-5">
+                <h2 class="text-primary">SCHOOL: SOLUTION MODEL HIGH SCHOOL</h2>
+                <p>Grade: Secondary, Primary</p>
+                <p>FEES: 100$ above</p>
+                <small class="text-danger">Read more</small>
+               </article>
+               <article class="col-12 col-md-6 col-lg-4 text-center my-5">
+                <h2 class="text-primary">SCHOOL: REDEEMED TECHNICAL COLLEGE</h2>
+                <p>Grade: Secondary, Primary, Nursery</p>
+                <p>FEES: 10$ above</p>
+                <small class="text-danger">Read more</small>
+               </article>
+        </div>
+        </div>
+        <footer class="container-fluid bg-dark">
+            <div class="footer1 mt-5 w-100">
+              <a href="#" class="maps position-absolute rounded-circle border border-white bg-dark p-3"><i class="map fa fa-map-marker-alt"></i></a>
+              <hr class="bg-white">
+              <ul class="d-flex justify-content-between mt-4 align-items-center">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SEARCH</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">ADVERTISE</a></li>
+                <li><a href="#">FACEBOOK</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">GOOGLE+</a></li>
+              </ul>
+              <hr class="bg-white">
+            </div>
+            <div class="footer2 row mt-5">
+               <div class="col-12">
+                   <div class="row">
+                       <div class="col-4">
+                           <h3 class="mb-3 text-white text-center">SUBSCRIBE</h3>
+                       <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="user@gmail.com">
+                        <div class="input-group-append">
+                          <button class="btn btn-secondary fw-bold" type="button">SEND</button>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="col-4 text-center">
+                        <h3 class="mb-3 text-white">CONTACT</h3>
+                        <p class="text-center text-white m-0">Have a question or submission? Let us know how we can help.</p>
+                        <a href="#" class="text-danger">solutionacademy@gmail.com</a>
+                      </div>
+                      <div class="col-4 text-center">
+                          <h3 class="mb-3 text-white">ABOUT</h3>
+                          <p class="text-white">SynSchool is a platform where Parent meet Teachers. It is a solution to lack of communication between parent, students and their school.<span class="about-in ml-2 text-danger">Learn more...</span></p>
+                      </div>
+                   </div>
+               </div>
+              
+            </div>
+          </footer>
+</body>
+</html>

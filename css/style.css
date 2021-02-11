@@ -64,9 +64,16 @@ header a {
 
 .app-img {
   background-image: url("../images/sysproject.jpg");
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+  height: 270px;
+  width: 270px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50% !important;
+}
+
+.app-content {
+  height: 300px;
 }
 
 .main-content button {
@@ -83,6 +90,20 @@ header a {
 
 .title {
   font-weight: bold;
+}
+
+/* login section */
+.login-section input {
+  background-color: rgb(204, 199, 199) !important;
+}
+
+/* search result */
+.search-result article {
+  box-shadow: 3px 3px 6px blue;
+}
+
+.search-result article:hover {
+  background-color: rgb(246, 246, 250);
 }
 
 /* footer here */
