@@ -1,5 +1,5 @@
 # Directory-of-schools
-A directory for schools that allows parents and teachers connect. It allows the school management to access the parents feedback on issues regarding their children and ward. This will be available to all schools in Nigeria.
+A directory for schools that allows parents and teachers connect. It allows the school management to access the parents feedback on issues regarding their children and ward. This will be available to all schools in the globe.
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
@@ -7,9 +7,9 @@ A directory for schools that allows parents and teachers connect. It allows the 
 
 > Clone of THE NEWSWEEK page using Bootstrap
 
-<!-- <img src="img/ScreenShot-desktop.png" width="700">
-<img src="img/ScreenShot-tablet.png" width="600">
-<img src="img/ScreenShot-mobile.png" width="500"> -->
+<img src="images/syn1.png" width="700">
+<img src="images/syn2.PNG.png" width="600">
+<img src="images/syn3.PNG" width="500">
 
 I applied botstrap all through out the project to achieve the desired lay out for the major 3 screen sizes.
 
@@ -21,7 +21,7 @@ I applied botstrap all through out the project to achieve the desired lay out fo
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://promise-j.github.io/Directory-of-school/)
 
 ## Authors
 
@@ -36,7 +36,7 @@ I applied botstrap all through out the project to achieve the desired lay out fo
 Contributions, issues, and feature requests are welcome!
 
 ## Show your support
-
+I want to dedicate this project to the author Mathew Njuguna. This was a very creative work. Thank you for your support too.
 Give a ⭐️ if you like this project!
 
 ## 📝 License
