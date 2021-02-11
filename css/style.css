@@ -86,7 +86,7 @@ header a {
   border-radius: 50%;
 }
 
-app-content button {
+.app-content button {
   width: 3em;
 }
 
@@ -153,7 +153,6 @@ footer .maps {
 
 .about-in {
   font-size: small;
-
 }
 
 /* media queries */
@@ -171,31 +170,39 @@ footer .maps {
   footer ul li a {
     font-size: small !important;
   }
+  
   .how-it-works {
     display: none;
   }
+  
   .logo-img {
     font-size: 1em;
   }
+  
   nav ul li:nth-child(1),
   nav ul li:nth-child(2),
   nav ul li:nth-child(3) {
     display: none;
   }
+  
   .title {
     font-size: 1.8em;
     text-align: center;
   }
+  
   .app-content h4 {
     font-size: 1em;
   }
+  
   footer h3 p {
     font-size: small !important;
   }
+  
   .main-inner h2 {
     font-size: 1.7em;
     margin: 10px auto;
   }
+  
   .demo h2 {
     font-size: 2em;
   }
