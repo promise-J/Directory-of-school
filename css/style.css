@@ -59,8 +59,7 @@ header a {
 
 /* main section */
 .main-intro {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       90deg,
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.7)
@@ -88,7 +87,6 @@ header a {
 }
 
 .app-img {
-  /* background-image: url("../images/sysproject.jpg"); */
   height: 270px;
   width: 100%;
   background-position: center;
