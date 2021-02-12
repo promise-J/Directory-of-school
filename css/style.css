@@ -33,19 +33,19 @@ header {
 }
 
 .main-color {
-  background-color: #D35649;
+  background-color: #d35649;
 }
 
 .second-back {
-  background-color: #6C757D;
+  background-color: #6c757d;
 }
 
 .third-back {
-  background-color: #007BFF;
+  background-color: #007bff;
 }
 
 .main-text {
-  color: #D35649;
+  color: #d35649;
 }
 
 header a {
@@ -197,6 +197,7 @@ footer .maps {
   footer ul li:nth-child(7) {
     display: none;
   }
+  
   footer ul li a {
     font-size: small !important;
   }
