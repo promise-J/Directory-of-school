@@ -88,7 +88,7 @@ header a {
 .main-content input {
   background-color: white !important;
   outline: none;
-  height: 3rem;
+  height: 3em;
 }
 
 .demo-icon {
@@ -161,6 +161,9 @@ header a {
 }
 
 /* footer here */
+footer {
+  background-color: black;
+}
 
 footer a {
   font-size: 0.7rem;
@@ -270,5 +273,13 @@ footer .maps {
 
   .demo h2 {
     font-size: 2em;
+  }
+}
+
+@media all and (max-width: 621px) {
+  .main-inner {
+    width: 80vw;
+    margin: auto;
+    /* margin: 5em !important; */
   }
 }
