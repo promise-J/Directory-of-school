@@ -6,7 +6,7 @@ A directory for schools that allows parents and teachers connect. It allows the 
 # HTML & CSS CAP STONE PROJECT: DIRECTORY OF SCHOOL.
 
 
-<img src="images/syn1.PNG" width="700">
+<img src="images/syn1.PNG" width="800">
 <img src="images/syn2.PNG" width="500">
 <img src="images/syn3.PNG" width="300">
 
@@ -14,7 +14,7 @@ I applied botstrap all through out the project to achieve the desired lay out fo
 
 ## Built With
 
-- HTML & CSS
+- HTML & CSS.
 - Media queries
 - Bootstrap
 
