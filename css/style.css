@@ -7,10 +7,6 @@ li {
   padding: 0;
 }
 
-input {
-  background-color: black !important;
-}
-
 body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: white;
@@ -24,9 +20,82 @@ a {
 }
 
 /* header */
-header {
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #d35649;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 5px 30px;
+  color: white;
   z-index: 5;
 }
+
+.head-text {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 11%;
+}
+
+nav .logo {
+  font-size: 1.1rem;
+  white-space: nowrap;
+  margin-left: 45px;
+}
+
+nav a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  padding-top: 15px;
+  flex-wrap: nowrap;
+}
+
+nav ul li {
+  font-weight: bold;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  padding: 0 14px;
+}
+
+.mobile-view {
+  display: none;
+}
+
+/* mobile view for the navbar */
+
+@media only screen and (min-width: 576px) {
+  nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  nav .logo {
+    margin-left: 48px;
+    font-size: 1.4rem;
+  }
+
+  .mobile-view {
+    padding: 0 5px;
+    display: inline;
+  }
+}
+
 
 .appraisal h4 {
   font-weight: bold;
@@ -65,31 +134,10 @@ header a {
   font-size: 2em;
 }
 
+.logo a {
+  font-size: 1.8rem;
+}
 /* main section */
-.main-intro {
-  background-image:
-    linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.7)
-    ),
-    url("../images/sysproject.jpg");
-  height: 500px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-}
-
-.main-content {
-  background-color: rgba(225, 225, 225, 0.6);
-}
-
-.main-content input {
-  background-color: white !important;
-  outline: none;
-  height: 3em;
-}
 
 .demo-icon {
   font-size: 4rem;
@@ -113,12 +161,24 @@ header a {
   border-radius: 50%;
 }
 
-.main-content button {
+.main-content h2 {
   font-weight: bold;
 }
 
-.main-content h2 {
-  font-weight: bold;
+.main-intro {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(000, 000, 000, 0.2),
+      rgba(000, 000, 000, 0.4)
+    ),
+    url("../images/sysproject.jpg");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  background-repeat: no-repeat;
 }
 
 .how-it-works {
@@ -208,18 +268,16 @@ footer .maps {
     font-size: 4px !important;
   }
 
+  footer input {
+    background-color: black !important;
+  }
+
   .how-it-works {
     display: none;
   }
 
   .logo-img {
     font-size: 1em;
-  }
-
-  nav ul li:nth-child(1),
-  nav ul li:nth-child(2),
-  nav ul li:nth-child(3) {
-    display: none;
   }
 
   .footer2 h3 {
@@ -280,5 +338,97 @@ footer .maps {
   .main-inner {
     width: 80vw;
     margin: auto;
+  }
+}
+
+/* this is for mobile view */
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 60%;
+  margin: 0 auto;
+  background-color: rgba(235, 235, 235, 0.5);
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.search-input {
+  width: 80%;
+  border-radius: 5px;
+  border: 0.5px solid #ebebeb;
+  margin: 10px auto;
+}
+
+.search-btn {
+  width: 80%;
+  border-radius: 5px;
+  border: 0.5px solid rgba(235, 235, 235, 0.5);
+  background-color: #d35649;
+  color: white;
+  font-weight: 700;
+}
+
+.how-it-works-btn {
+  display: flex;
+  width: 150px;
+  height: 35px;
+  font-size: 1.2rem;
+  border: 0.5px solid rgba(235, 235, 235, 0.5);
+  border-radius: 5px;
+  margin-left: 5%;
+  font-weight: 700;
+  padding: 3px;
+  padding-left: 10px;
+  white-space: nowrap;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.tablet-form,
+.large-form {
+  display: none;
+}
+
+/* main  area for tablets */
+
+@media only screen and (min-width: 768px) {
+  .mobile-form {
+    display: none;
+  }
+
+  .how-it-works-btn {
+    margin: 0 auto;
+    margin-bottom: 10%;
+  }
+
+  .tablet-form {
+    display: inline;
+  }
+
+  .tablet-form-container {
+    padding: 15px 10px;
+    background-color: rgba(235, 235, 235, 0.5);
+    border-radius: 10px;
+  }
+}
+
+/* hero-area for large and extra-large screens */
+
+@media only screen and (min-width: 992px) {
+  .tablet-form {
+    display: none;
+  }
+
+  .large-form {
+    display: inline;
+  }
+
+  .large-form-container {
+    padding: 15px 10px;
+    background-color: rgba(235, 235, 235, 0.5);
+    border-radius: 10px;
   }
 }
