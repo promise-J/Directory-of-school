@@ -48,12 +48,26 @@ nav .logo {
   margin-left: 45px;
 }
 
+header a {
+  color: white;
+  font-size: 0.7rem;
+}
+
+footer a {
+  font-size: 0.7rem;
+  color: white;
+}
+
 nav a {
   color: white;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+.logo a {
+  font-size: 1.8rem;
 }
 
 nav a:hover {
@@ -96,7 +110,6 @@ nav ul li {
   }
 }
 
-
 .appraisal h4 {
   font-weight: bold;
 }
@@ -125,20 +138,11 @@ nav ul li {
   color: #d35649;
 }
 
-header a {
-  color: white;
-  font-size: 0.7rem;
-}
-
 .logo-img {
   font-size: 2em;
 }
 
-.logo a {
-  font-size: 1.8rem;
-}
 /* main section */
-
 .demo-icon {
   font-size: 4rem;
 }
@@ -223,11 +227,6 @@ header a {
 /* footer here */
 footer {
   background-color: black;
-}
-
-footer a {
-  font-size: 0.7rem;
-  color: white;
 }
 
 footer .footer1 {
