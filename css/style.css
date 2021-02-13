@@ -233,6 +233,10 @@ footer .maps {
     height: 1em !important;
   }
 
+  footer h3 p {
+    font-size: small !important;
+  }
+
   .footer2 p {
     font-size: 5px !important;
   }
@@ -257,10 +261,6 @@ footer .maps {
 
   .app-content h4 {
     font-size: 1em;
-  }
-
-  footer h3 p {
-    font-size: small !important;
   }
 
   .main-inner h2 {
