@@ -202,7 +202,7 @@ footer .maps {
   }
 
   footer ul li a {
-    font-size: small !important;
+    font-size: 4px !important;
   }
 
   .how-it-works {
@@ -217,6 +217,37 @@ footer .maps {
   nav ul li:nth-child(2),
   nav ul li:nth-child(3) {
     display: none;
+  }
+
+  .footer2 h3 {
+    font-size: 9px !important;
+  }
+
+  .footer2 button {
+    width: 6em !important;
+    font-size: 5px !important;
+    height: 4em !important;
+  }
+
+  .footer2 input {
+    height: 1em !important;
+  }
+
+  .footer2 p {
+    font-size: 5px !important;
+  }
+
+  .footer2 a {
+    font-size: 2px !important;
+  }
+
+  .app-content img {
+    height: 5em;
+    margin-top: 0;
+  }
+
+  .footer2 span {
+    font-size: 2px !important;
   }
 
   .title {
