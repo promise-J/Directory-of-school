@@ -32,6 +32,14 @@ header {
   font-weight: bold;
 }
 
+.appraisal button {
+  padding: 1px;
+  cursor: pointer;
+  border-right: 1px solid #8b8b8b;
+  border-left: 1px solid #FFF;
+  border-bottom: 1px solid #fff;
+}
+
 .main-color {
   background-color: #d35649;
 }
@@ -50,7 +58,7 @@ header {
 
 header a {
   color: white;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .logo-img {
