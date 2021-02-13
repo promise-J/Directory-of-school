@@ -18,6 +18,11 @@ I applied botstrap all through out the project to achieve the desired lay out fo
 - Media queries
 - Bootstrap
 
+## Set up
+On a folder of your choice, run git clone
+run npm init
+now you can access the project...
+
 ## Live Demo
 
 [Live Demo Link](https://promise-j.github.io/Directory-of-school/)
