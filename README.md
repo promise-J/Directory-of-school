@@ -31,7 +31,7 @@ I applied botstrap all through out the project to achieve the desired lay out fo
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/promise-chiemela-788887142)
 
 ## Acknowledgement
-Microverse
+Microverse.
 Stand Up team
 Mentor : Alicia
 Mathew Njuguna and others on Behance
